@@ -1,32 +1,23 @@
 body {
 	padding: 0;
 	margin: 0;
-
 	text-indent: 10px;
 }
-.cap{	
+.header{	
 display: flex;
-
 animation: animateBg 20s linear infinite;
   background:#4d79ff;
 align-items: center;
 border-bottom: solid red;
 justify-content: space-between;
-
-
 }
-.my{
-
+.cap{
 	margin-left: 20px;
-
 }
 #name {
-
 color: #F0F0F0;
-
 margin-left: 20px;
 }
-
 h1,h3{
 	padding: 0;
 	margin: 0;
@@ -34,13 +25,11 @@ h1,h3{
 h1 {
 	color: black;
 	}
-.login {
-
+.loginForm {
 margin-right: 20px;
 align-self: center;
-
 }
-#a1 {
+#login {
 	margin-left: 20px;
  text-decoration: none;
  text-transform: none;
@@ -48,61 +37,46 @@ align-self: center;
  font-size: 17px;
  font-weight: 600;
 }
-
-
 #registration {
 	width: 400px;
 	height: 500px;
 	 border-style :solid; border-width: 2px ;border-radius: 3px ;border-color: gray ;
 	 margin: auto;
 	 margin-top: 50px;
-     
-
-
 }
 #form {
-
  background:#4d79ff  ;
 height: 40px;
 width:400px;
 position:absolute;
-
-
 	text-align: center;
 }
 #form h4{
 	margin-top: 8px;
 	font-size: 20px;
 	color: #F0F0F0;
-
 }
-#p3{
+#surname{
 	margin-top: 70px;
     margin-bottom: 0;
     margin-left: 13px;
 }
-
 #numb {
     width: 350px;
     height: 35;
 }
-#lab1 {
-    margin-top: 50px;
-}
-#p1{
+#registText{
     margin-bottom: 0; 
-
     margin-left: 13px;
-
 }
-#inp{
+#input{
    margin-left: 20px;
     width: 88%;
     height: 25px;
     border: solid 2px #DCDCDC;
     border-radius: 5px ;
 }
-#sel{
+#numberGroup{
     margin-left: 20px;
     width: 360px;
     height: 31px;
@@ -110,56 +84,47 @@ position:absolute;
     border-radius: 5px ;
 }
 .button{
-
     margin-top: 10px;
 	margin-left: 255px;
     height: 30px;
-
 }
 .button:hover{
 	transform: scale(1.1);
 	transition: all 0.4s ease;
-
-
 }
 .button:active{
 	background: #F5F5DC;
 }
-
 .bottom {
 	height: 80px;
 	background: gray;}
-
 footer {
 	position: absolute;
    bottom:0;
    width:100%;
    height:70px;
 }
-#p {
+#security {
 padding-top: 21px;
 	text-align: center;
 	color: #C8C8C8;
-
 margin-bottom: 0;
 }
-#p2{
+#developer{
 	margin-top: 0;
 color: #C8C8C8;
-
 	text-align: center;
 }
 .section{
 	display: flex;
-
 }
-.div0{
+.column1{
 	width: 300px;
 	margin-left:200px;
 	font-family: sans-serif ;
 	text-indent:0px;
 }
-.div1{
+.column{
 	width: 300px;
 	margin-left: 5%;
 	font-family: sans-serif;
@@ -168,32 +133,31 @@ color: #C8C8C8;
 #text {
 	color: #707070;
 	margin-bottom: 0;
-	
 }
 #text1 {
 	font-family:Consolas;
 	font-weight: 700;
 	margin-top: 0;
 }
-#h1_1{
+#createRep{
 color: rgb(108, 139, 238); ;
 }
-#h1_2{
+#observeRep{
 	color: rgb(60, 77, 153); ;
 }
-#h1_3{
+#workingBran{
 	color: rgb(70, 224, 117); ;
 }
-#h1_4{
+#change{
 	color: rgb(58, 134, 51); ;
 }
-#h1_5{
+#synchronize{
 	color: rgb(230, 14, 60); ;
 }
-#h1_6{
+#finall{
 	color: rgb(119, 30, 30);;
 }
-.pos{
+.githubTraining{
 	text-decoration: none;
 	color: rgb(49, 58, 170);;
 font-weight: 600;
